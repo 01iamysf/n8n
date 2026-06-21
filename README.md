@@ -14,6 +14,8 @@ Bas. Uske baad wo khud ye sab kaam karta rahega. bina tere kuch bole tune ek baa
 
 ## Example Workflows
 
+![n8n Workflow](assets/workflow.png)
+
 ### 1. Basic Automation Workflow
 
 **Website Form Fill Hua** 
@@ -23,8 +25,6 @@ Bas. Uske baad wo khud ye sab kaam karta rahega. bina tere kuch bole tune ek baa
 * MongoDB me save kar diya
 * Email bhej diya
 * Telegram/WhatsApp pe notification bhej diya
-
-![n8n Workflow](assets/workflow.png)
 
 ### 2. AI Integration Workflow
 Ab AI ke saath maza aur badh jata hai. Maan le koi user website pe question poochta hai:
