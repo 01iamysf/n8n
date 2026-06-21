@@ -1,5 +1,7 @@
 # n8n - Automation Tool
 
+I'm learning n8n and documenting things in my own way as I understand them. Most explanations are written in Hinglish, with examples, random thoughts, and sometimes a bit of bakchodi to make concepts easier to remember.
+
 ## Chatpter 1: n8n Intro
 
 n8n ek automation tool hai. Matlab tu alag-alag apps ko aapas me connect karke unse kaam karwa sakta hai bina baar-baar khud click kiye.
