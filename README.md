@@ -77,7 +77,7 @@ Exactly waise hi n8n me:
 - In sabko jodkar workflow banta hai.
 ---
 
-***Har workflow 3 cheezon se milkar banta hai.*
+***Har workflow 3 cheezon se milkar banta hai.***
 
 **1. Trigger**
 
