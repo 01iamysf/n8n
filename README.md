@@ -1,8 +1,11 @@
 # n8n - Automation Tool
 
+## Chatpter 1: n8n Intro
+
 n8n ek automation tool hai. Matlab tu alag-alag apps ko aapas me connect karke unse kaam karwa sakta hai bina baar-baar khud click kiye.
 
-## What it Solves
+- Let me make this more simple for you bro...
+
 Tu jab coding karta hai ya manual koi kaam krta, for exmpl bahut saare kaam aise hote hain jo baar-baar repeat hote hain. Jaise form submit hua, email bhejna hai, database update karna hai, notification bhejni hai, Excel me entry karni hai. Har cheez ke liye alag code likho, server banao, APIs connect karo... pura scene headache ho jata hai. 
 
 **Yahi kaam n8n easy bana deta hai.**
@@ -12,7 +15,7 @@ Maan le n8n ek smart office employee hai, ya ek robot smajh le. Tu usko ek baar 
 
 Bas. Uske baad wo khud ye sab kaam karta rahega. bina tere kuch bole tune ek baar usko instruction de diya, vo repeat krta rhega bina ruke.
 
-## Example Workflows
+## Workflows
 
 ![n8n Workflow](assets/workflow.png)
 
@@ -27,7 +30,7 @@ Bas. Uske baad wo khud ye sab kaam karta rahega. bina tere kuch bole tune ek baa
 * Telegram/WhatsApp pe notification bhej diya
 
 ### 2. AI Integration Workflow
-Ab AI ke saath maza aur badh jata hai. Maan le koi user website pe question poochta hai:
+AI ke saath bhai or easy ho jata hai. Maan le koi user website pe question poochta hai:
 
 **User:** "Write a leave application"
 ↓
@@ -41,7 +44,6 @@ Ab AI ke saath maza aur badh jata hai. Maan le koi user website pe question pooc
 
 > Matlab smjha bhai... n8n AI aur baaki apps ke beech ka middleman hai. thoda toh smjh hi gya hoga
 
-## Why use n8n?
 Sabse mast baat ye hai ki isme zyada coding nahi karni padti. Drag and drop se workflow bana sakta hai. Thodi API aur JSON ki knowledge ho to kaafi powerful cheezein bana lega.
 
 Isliye startups aur companies use karti hain kyunki:
@@ -49,8 +51,73 @@ Isliye startups aur companies use karti hain kyunki:
 - **Development fast hota hai**
 - **Automation easily ban jati hai**
 - **AI ko existing systems ke saath connect kar sakte hain**
+Mere hisaab se n8n ko aise yaad rakh skte hai bhai: **"n8n ek digital employee hai jo apps, APIs aur AI ko connect karke boring repetitive kaam automatically kar deta hai."**
 
-### Summary
-Mere hisaab se n8n ko aise yaad rakh skte hai bhai: 
+---
 
-**"n8n ek digital employee hai jo apps, APIs aur AI ko connect karke boring repetitive kaam automatically kar deta hai."**
+## Chapter 2: n8n Architecture
+
+**Sabse pehle toh ye samajh:**
+
+Jab tu React app banata hai to usme components hote hain.
+
+- Navbar
+- Sidebar
+- Dashboard
+- Footer
+- In sabko jodkar app banta hai.
+
+Exactly waise hi n8n me:
+
+- Trigger
+- Node
+- Node
+- Node
+- Output
+- In sabko jodkar workflow banta hai.
+---
+
+***Har workflow 3 cheezon se milkar banta hai.*
+
+**1. Trigger**
+
+Ye workflow ko start karta hai.
+
+For Example:
+- Form Submit
+- New Email
+- Webhook
+- Schedule
+- Trigger
+    ↓
+- Workflow Start
+
+Without trigger kuch nahi hota.
+
+**2. Nodes**
+
+n8n me har block ko Node bolte hain.
+
+for Example:
+
+- Webhook Node
+- Email Node
+- OpenAI Node
+- Google Sheets Node
+- MongoDB Node
+
+Ye Lego blocks ki tarah hote hain.
+
+**3. Execution**
+
+Workflow run hone ko execution bolte hain.
+
+- Trigger
+↓
+- Node 1
+↓
+- Node 2
+↓
+- Node 3
+
+Ye pura execution hai.
