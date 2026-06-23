@@ -1,6 +1,6 @@
-# 🍔 WhatsApp Restaurant AI Chatbot
+# WhatsApp Restaurant AI Chatbot
 
-## 📖 Project Overview
+## Project Overview
 This project is an automated, AI-powered restaurant assistant operating entirely on WhatsApp. It leverages the Meta WhatsApp Cloud API to interact with customers, n8n Cloud for workflow automation, Groq's Large Language Model for natural language understanding, and Google Sheets as a lightweight database.
 
 The chatbot is designed to handle common restaurant tasks such as:
@@ -11,7 +11,7 @@ The chatbot is designed to handle common restaurant tasks such as:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 flowchart TD
@@ -34,7 +34,7 @@ flowchart TD
 
 ---
 
-## 🛠️ Services & Technologies
+## Services & Technologies
 
 ### 1. Meta WhatsApp Cloud API
 - **Purpose**: Serves as the communication bridge. It receives incoming messages from customers and sends back the chatbot's responses.
@@ -51,23 +51,23 @@ flowchart TD
 ### 4. Google Sheets Database
 Used as a lightweight, easily accessible database. It contains three main sheets:
 
-#### 📋 Inventory Sheet
+#### Inventory Sheet
 Stores the restaurant's menu.
 - **Columns**: `Item Name`, `Category`, `Price`, `Available`
 - **Example**: `Chicken Roll` | `Snacks` | `140` | `Yes`
 
-#### ❓ FAQ Sheet
+#### FAQ Sheet
 Stores answers to common questions.
 - **Columns**: `Question`, `Answer`
 - **Example**: `What are your timings?` | `We are open from 10 AM to 10 PM.`
 
-#### 🛒 Orders Sheet
+#### Orders Sheet
 Records customer orders.
 - **Columns**: `Customer Name`, `Phone`, `Items`, `Quantity`, `Timestamp`
 
 ---
 
-## ⚙️ n8n Workflow Breakdown
+## n8n Workflow Breakdown
 
 The n8n workflow consists of several interconnected nodes that process each message:
 
@@ -98,7 +98,7 @@ These nodes connect the AI Agent to Google Sheets:
 
 ---
 
-## 💬 Message Flow Examples
+## Message Flow Examples
 
 ### Example 1: Greeting
 1. **Customer**: "Hi"
@@ -124,7 +124,7 @@ These nodes connect the AI Agent to Google Sheets:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 To make the chatbot even more robust, the following features can be added:
 - Real-time order confirmation and delivery tracking
 - Customer profiles for personalized recommendations
