@@ -3,6 +3,8 @@
 ## Project Overview
 This project is an automated, AI-powered restaurant assistant operating entirely on WhatsApp. It leverages the Meta WhatsApp Cloud API to interact with customers, n8n Cloud for workflow automation, Groq's Large Language Model for natural language understanding, and Google Sheets as a lightweight database.
 
+> **Just a quick note:** I built this project while learning n8n to get some hands-on experience with workflow automation and AI. While it works perfectly as a demonstration, it's a personal prototype and not meant to be a full-scale, production-ready enterprise app!
+
 The chatbot is designed to handle common restaurant tasks such as:
 - Greeting customers and maintaining context
 - Showcasing the menu and prices
