@@ -2,6 +2,9 @@
 
 I'm learning n8n and documenting things in my own way as I understand them. Most explanations are written in Hinglish, with examples, random thoughts, and sometimes a bit of bakchodi to make concepts easier to remember.
 
+> **🍔 WhatsApp Restaurant Chatbot Project**  
+> Check out the [Project Documentation](project.md) for a complete breakdown of my WhatsApp Restaurant AI Chatbot. It explains how I connected the Meta API, n8n, Groq LLM, and Google Sheets to build a fully automated ordering system!
+
 ## Chatpter 1: n8n Intro
 
 n8n ek automation tool hai. Matlab tu alag-alag apps ko aapas me connect karke unse kaam karwa sakta hai bina baar-baar khud click kiye.
