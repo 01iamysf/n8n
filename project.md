@@ -107,8 +107,8 @@ These nodes connect the AI Agent to Google Sheets:
 Here are some real interactions with the chatbot:
 
 <p align="center">
-  <img src="assets/whatsapp-chat-2.jpg" width="45%" />
-  <img src="assets/whatsapp-chat-1.jpg" width="45%" />
+  <img src="assets/whatsapp-new-1.jpg" width="45%" />
+  <img src="assets/whatsapp-new-2.jpg" width="45%" />
 </p>
 
 ### Example 1: Greeting
