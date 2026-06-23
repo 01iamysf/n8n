@@ -69,6 +69,8 @@ Records customer orders.
 
 ## n8n Workflow Breakdown
 
+![n8n Workflow Canvas](assets/n8n-workflow-ui.png)
+
 The n8n workflow consists of several interconnected nodes that process each message:
 
 ### 1. WhatsApp Trigger
@@ -99,6 +101,13 @@ These nodes connect the AI Agent to Google Sheets:
 ---
 
 ## Message Flow Examples
+
+Here are some real interactions with the chatbot:
+
+<p align="center">
+  <img src="assets/whatsapp-chat-1.jpg" width="45%" />
+  <img src="assets/whatsapp-chat-2.jpg" width="45%" />
+</p>
 
 ### Example 1: Greeting
 1. **Customer**: "Hi"
